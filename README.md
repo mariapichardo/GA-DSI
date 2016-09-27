@@ -1,3 +1,2 @@
-# GA-DSI
-GA Data Science Immersive program Sep 2016 - Maria Pichardo
-this s for testing modification
+# DSI-NYC-2
+Repo for NYC Data Science Immersive - September 2016
