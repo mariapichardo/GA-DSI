@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <title>Breast Cancer Probability Calculator</title>
+  </head>
+   <body>
+      <h1>Breast Cancer Probability Calculator</h1>
+      <form action = "http://localhost:4000/result" method = "POST">
+         <p>Age Group
+             <select id="Age" name="age_group_5_years">
+                <option value=1>Age 18-29</option>
+                <option value=2>Age 30-34</option>
+                <option value=3>Age 35-39</option>
+                <option value=4>Age 40-44</option>
+                <option value=5>Age 45-49</option>
+                <option value=6>Age 50-54</option>
+                <option value=7>Age 55-59</option>
+                <option value=8>Age 60-64</option>
+                <option value=9>Age 65-69</option>
+                <option value=10>Age 70-74</option>
+                <option value=11>Age 75-79</option>
+                <option value=12>Age 80-84</option>
+                <option value=13>Age &gt;85</option>
+              </select>
+         </p>   
+
+
+
+         <p>Age (years) at menarche 
+            <select id="age_menarche" name="age_menarche">
+                <option value=1>Age 12-13</option>
+                <option value=2>Age &lt;12</option>
+                <option value=9>Unknown</option>
+            </select>
+         </p>
+
+
+         <p>Age (years) at first birth
+            <select id="age_first_birth" name="age_first_birth">
+                <option value=0>Age &lt; 20</option>
+                <option value=1>Age 20-24</option>
+                <option value=2>Age 25-29</option>
+                <option value=3>Age &gt;30</option>
+                <option value=4>Nulliparous</option>
+                <option value=9>Unknown</option>
+            </select>
+        </p>
+         
+          <p>Race/ethnicity 
+            <select id="race_eth" name="race_eth">
+                <option value=1>Non-Hispanic white</option>
+                <option value=2>Non-Hispanic black</option>
+                <option value=3>Asian/Pacific Islander</option>
+                <option value=4>Native American</option>
+                <option value=5>Hispanic</option>
+                <option value=6>Other/mixed</option>
+                <option value=9>Unknown</option>
+            </select>
+           </p>
+
+
+         <p>History of breast cancer in a first degree relative 
+            <select id="first_degree_hx" name="first_degree_hx">
+                <option value=0>No</option>
+                <option value=1>Yes</option>
+                <option value=9>Unknown</option>
+            </select>
+         </p>
+
+         <p>Prior breast cancer diagnosis 
+            <select id="breast_cancer_history" name="breast_cancer_history">
+                <option value=0>No</option>
+                <option value=1>Yes</option>
+                <option value=9>Unknown</option>
+            </select>
+         </p>
+
+         <p>Use of hormone replacement therapy 
+            <select id="current_hrt" name="current_hrt">
+                <option value=0>No</option>
+                <option value=1>Yes</option>
+                <option value=9>Unknown</option>
+            </select>
+         </p>
+
+         <p>Menopausal status
+            <select id="menopaus" name="menopaus">
+                <option  value=1>Pre- or peri-menopausal</option>
+                <option  value=2>Post-menopausal</option>
+                 <option value=3>Surgical menopause</option>
+                <option  value=9>Unknown</option>
+            </select>
+          </p>
+
+
+
+         <p>Body mass index 
+            <select id="bmi_group" name="bmi_group">
+                <option  value=1>10-24.99</option>
+                <option  value=2>25-29.99</option>
+                <option value=3>30-34.99</option>
+                <option value=4>35 or more</option>
+                <option  value=9>Unknown</option>
+            </select>
+          </p>
+        
+
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+
+   </body>
+</html>
